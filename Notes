@@ -1,0 +1,13 @@
+1) Jsx - Is not HTML in Js ,Jsx is like a HTML not a HTML 
+html like Syntax (Jsx is more closer to XML)
+
+const heading = () => {
+    return <h1>Hellow React<h1/> ;
+}
+
+const Heading = () => (<h1>Hellow React</h1>)
+
+jsx sort the html tag like br etc
+</title>  == <title></title>
+
+In useState  function does not neet to return because we dont need any value or calculation just for some functionality
