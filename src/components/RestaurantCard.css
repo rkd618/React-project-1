@@ -1,0 +1,23 @@
+/* Add this to your CSS file (e.g., RestaurantCard.css) */
+.overflow-text {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;  /* Adjust this width as needed */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.overflow-text:hover::after {
+    content: attr(data-full-text);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    white-space: nowrap;
+    z-index: 1;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}

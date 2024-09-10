@@ -1,5 +1,5 @@
-1) Jsx - Is not HTML in Js ,Jsx is like a HTML not a HTML 
-html like Syntax (Jsx is more closer to XML)
+#    Jsx - Is not HTML in Js ,Jsx is like a HTML not a HTML 
+# html like Syntax (Jsx is more closer to XML)
 
 const heading = () => {
     return <h1>Hellow React<h1/> ;
@@ -7,7 +7,54 @@ const heading = () => {
 
 const Heading = () => (<h1>Hellow React</h1>)
 
-jsx sort the html tag like br etc
+# jsx sort the html tag like br etc
 </title>  == <title></title>
 
-In useState  function does not neet to return because we dont need any value or calculation just for some functionality
+Ep- 1to3
+const heading = React.createElement("h1", {id: "heading"}, "Hello World From React!");
+const Paragraph = React.createElement("h1", {id: "Paragraph"}, "Rendering the wrong World!!");
+const root = ReactDom.createRoot(document.getElementById("root"));
+root.render(Paragraph)
+
+# useState  function does not neet to return because we dont need any value or calculation just for some functionality
+
+**Wire Frame**
+*Headder
+   - logo 
+   - Nav link
+   - Register/Login
+*Body
+    - Search
+        - Resturant container
+        - Resturant Card
+         -img
+         -Name of rest , Rating , cuisine, etc
+*Footer
+    - Copyright
+    - Links
+    - Address
+    - Contact
+
+# we can write css in form of similar to function and call it in form of  style={styleCard}
+    const styleCard = {
+        backgroundColor: "white"
+    }
+# conflict driven UI (for the diffrent place diffrent UI can be)
+
+# https://www.swiggy.com/mapi/homepage/getCards?lat=19.07480&lng=72.88560
+
+# not using keys (not acceptable) <<<<< unique id(best practise)
+
+# There are 2 Export one is Default and another one is Name
+
+# -Dafault Export/Import
+export dafault components
+import components from "path";
+
+# -Named Export/Import
+export const Components;
+import {component} from "path";
+
+# whenever varible changed components rerender in the react
+
+# React Fibre came in React 16 version 
