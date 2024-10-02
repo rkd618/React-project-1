@@ -4,7 +4,7 @@
     border: 1px solid grey
 }
 .logo{
-    width: 100px;
+    width: 105px;
 }
 
 .nav-items{
@@ -19,6 +19,10 @@
     padding: 10px;
     margin: 10px;
 }
+.nav-items ul li a {
+    text-decoration: none;
+  }
+  
 .Rest-container{
     display: flex;
     flex-wrap: wrap;
@@ -30,9 +34,17 @@
     height: 365px;
     padding: 5px;
 }
+.res-card h3 ,h4{
+list-style:none;
+}
 .res-card:hover{
     cursor:pointer;
     border: 2px solid green;
+}
+.shimmer-card{
+    border-radius: 13px;
+    width: 280px;
+    height: 365px;
 }
 
 .search{
@@ -52,7 +64,23 @@
     max-width: 280px; 
     cursor: pointer;
 }
+.filter{
+    display: flex;
+}
+
 .filter-btn{
     width:250px;
-    height:2rem;
+    height:1.5rem;
+}
+
+.reseat-btn{
+    height:1.5rem;
+}
+.login-btn{
+    font-size: 1.3rem;
+    border: 1px solid black;
+    cursor: pointer;
+    padding:0 1px;
+    width: 75px;
+    background-color: lightgrey
 }

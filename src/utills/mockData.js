@@ -81,7 +81,7 @@ const reslist = [
   },
   {
     "info": {
-      "id": "247759",
+      "id": "247765",
       "name": "Mamlekar NX",
       "cloudinaryImageId": "b3849079ec5424116798f5af3609c01b",
       "locality": "Shivaji Nagar Signal",
@@ -105,7 +105,7 @@ const reslist = [
       "isOpen": true
     },
     "cta": {
-      "link": "swiggy://menu?restaurant_id=247759",
+      "link": "swiggy://menu?restaurant_id=247765",
       "text": "RESTAURANT_MENU",
       "type": "DEEPLINK"
     }
@@ -533,7 +533,7 @@ const reslist = [
   },
   {
     "info": {
-      "id": "247759",
+      "id": "247766",
       "name": "Mamlekar NX",
       "cloudinaryImageId": "b3849079ec5424116798f5af3609c01b",
       "locality": "Shivaji Nagar Signal",
@@ -595,7 +595,7 @@ const reslist = [
     },
     "analytics": {},
     "cta": {
-      "link": "swiggy://menu?restaurant_id=247759",
+      "link": "swiggy://menu?restaurant_id=247766",
       "text": "RESTAURANT_MENU",
       "type": "DEEPLINK"
     }

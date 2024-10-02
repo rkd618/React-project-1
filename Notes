@@ -58,3 +58,32 @@ import {component} from "path";
 # whenever varible changed components rerender in the react
 
 # React Fibre came in React 16 version 
+# system design 
+Monolithic - all stuff in the one repository like database, API, utilities, service
+microservice - for each have a diffrent reposetries all are indepent with each other
+# React- always first skelton and body load after that API call occured 
+# Featch is a Browser Property to fetch the  API
+Summary:
+The description of React's rendering process is mostly correct, though server-side rendering can change the behavior slightly.
+The fetch statement is correct.
+
+# in below casefirst restlist come then from api data is come 
+const [listofRestaurants, setListofRestaurants] = useState(restlist);
+
+# //if no dependency array => useEffect is called on every render.
+
+ # //if dependency array is Empty = [] => useEffect is called on initial render (just once).
+ ## if there is any array dependency [searchtext] =>  now every time only searchtext updates
+  useEffect(() => {
+    fetchData();
+  }, [searchtext]);
+
+// Shortcut = rafce + enter
+
+There are 2 types of Routing- 
+# client side routing
+# Server side routing
+
+#menu card Api card - 
+https://www.swiggy.com/mapi/homepage/getCards?lat=19.2113806&lng=72.8570866
+https://www.swiggy.com/mapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=19.2113806&lng=72.8570866&restaurantId=579195&submitAction=ENTER
