@@ -87,3 +87,35 @@ There are 2 types of Routing-
 #menu card Api card - 
 https://www.swiggy.com/mapi/homepage/getCards?lat=19.2113806&lng=72.8570866
 https://www.swiggy.com/mapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=19.2113806&lng=72.8570866&restaurantId=579195&submitAction=ENTER
+
+# class based componemts 
+#keyPoints
+1)class name react extend.components
+2)Props , superprops (superprops basically give the acess to parents's class components )
+3)render (in render method we call the return components)
+4)class based rendering basically work hook cycle functionality
+Note : - first call superprops , second call render , third compoundidmount
+basically compoundidmount used to call api beecause by render method it render the components after that why developers used to call it inside compunddidmount method.
+
+class hook cycle (srtage):
+1)render phase(render superprops and render)
+2)commit phase(cpmpountdidmount)
+
+# incresing the speed of react it used to call in batch of render phase and then commit phase
+
+********Mounting Lifecycle*********
+-constructor(dummy)
+-Render(dummy)
+<Html Dummy>
+component did Mount
+ <Api call>
+ <this.state>
+ 
+ ********Update Cycle********
+ render(API DATA)
+ <HTML  (new Api data)>
+
+ 
+
+
+

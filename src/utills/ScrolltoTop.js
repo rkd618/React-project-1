@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp'
 import Top from "../Public/Top.png"
 const ScrollToTop = () => {
     const [visibility, setVisibility] = useState(false);
@@ -28,9 +29,8 @@ const ScrollToTop = () => {
     return (
         <div>
             {visibility && (
-                <button onClick={scrollHandler} style={style.button}>
-                    <img src={Top} alt="Top" style={{ width: '30px', height: '30px' }} /> {/* Use <img> to display the image */}
-                    Top
+                <button onClick={scrollHandler} style={style.button}> 
+                     <KeyboardDoubleArrowUpIcon/>
                 </button>
             )}
         </div>
@@ -39,16 +39,16 @@ const ScrollToTop = () => {
 
 const style = {
 button: {
-bottom: '50px',
-right: '50px',
-padding: '8px 12px',
+bottom: '35px',
+right: '35px',
+width: '55px',
+height:'40px',
 position: 'fixed',
-backgroundColor: 'royalblue',
+backgroundColor: '#33527A',
 border: 'none',
 borderRadius: '8px',
 cursor: 'pointer',
 fontSize: '16px',
-display: 'flex',
 alignItems: 'center',
 }};
 

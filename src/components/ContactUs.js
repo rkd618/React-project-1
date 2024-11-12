@@ -8,9 +8,10 @@ const ContactUs = () =>{
             <h2>
                Contact Us Page
             </h2>
-            <User/>
+            <User name={"Peter"} location={"NewYork"} email={"peterparker@gmail.com"}/>
+            <User name={"Tony stark"} location={"California"} email={"tonystark@gmail.com"}/>
             <hr/>
-            <UserClass/>
+            <UserClass name={"heath keiger"} location={"California"} Email={"marvel@gmail.com"}/>
         </div>
     )
 }

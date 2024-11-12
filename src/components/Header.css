@@ -1,0 +1,36 @@
+.status-indicator {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: gray; /* Default color */
+  border: 2px solid black; /* To make it visible */
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Target the button specifically */
+button.login-online {
+  background-color: #90EE12 !important;
+  color: white !important;
+}
+
+button.login-offline {
+  background-color: #f3d3d0 !important;
+  color: white !important;
+}
+
